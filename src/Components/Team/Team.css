@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 100px auto 0;
+  text-align: center;
+}
+.team-inp {
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.team-area {
+  width: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 100px auto 0;
+}
+.team.item {
+  width: 33.33%;
+  align-items: center;
+}
+.team-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.team-item h2 {
+  text-align: center;
+}
+.team-item p {
+  text-align: center;
+}
+
+p {
+  margin: 10px auto 0;
+}
